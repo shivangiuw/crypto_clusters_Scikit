@@ -6,7 +6,7 @@ Application of Unsupervised machine learning to cluster cryptocurrencies in a po
 
 ### * Clustering with the original data (before using optimization techniques)
 
-![](crypto_data.png)
+![](images/crypto_data.png)
 
 1. Data in the form of a CSV file is imported and used as dataframe, which contains percentage of price change in different time periods:
 `price_change_percentage_24h`,`price_change_percentage_7d`,`price_change_percentage_14d`, `price_change_percentage_30d`, `price_change_percentage_60d` for different cryptocurrency `coin-id`.
@@ -32,13 +32,13 @@ Application of Unsupervised machine learning to cluster cryptocurrencies in a po
 ### * Visualize and Compare the Results
 
 1. Create a composite plot to compare the elbow curve of the original data and the PCA data.
-![](images/elbow_curve_original.png) 
-![](images/elbow_curve_ca.png)
+
+![](images/elbow_curve_original.png)![](images/elbow_curve_ca.png)
 
 2. Create a composite plot to compare the cryptocurrencies clusters using the original data and the PCA data.
 
-![](images/crypto_clusters_orig.png)
-![](images/crypto_clusters_pca.png)
+![](images/crypto_clusters_orig.png)![](images/crypto_clusters_pca.png)
+
 #### Analysis:
 Visually analyzing the cluster analysis results, we observe the impact of using fewer features to cluster the data using K-Means is `increased interpretability` of the cryptocurrency data and clusters. With PCA, we reduced the number of features for the data to 3 without sacrificing much in terms of accuracy, wherein the explained variance is 90%.
 
