@@ -37,7 +37,9 @@ Application of Unsupervised machine learning to cluster cryptocurrencies in a po
 
 2. Create a composite plot to compare the cryptocurrencies clusters using the original data and the PCA data.
 
-![](images/crypto_clusters_orig.png)![](images/crypto_cluster_pca.png)
+![](images/crypto_clusters_orig.png)
+
+![](images/crypto_cluster_pca.png)
 
 #### Analysis:
 Visually analyzing the cluster analysis results, we observe the impact of using fewer features to cluster the data using K-Means is `increased interpretability` of the cryptocurrency data and clusters. With PCA, we reduced the number of features for the data to 3 without sacrificing much in terms of accuracy, wherein the explained variance is 90%.
