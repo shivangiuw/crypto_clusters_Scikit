@@ -1,8 +1,8 @@
 # Cryptocurrencies Clustering 
 
-Application of Unsupervised machine learning to cluster cryptocurrencies in a portfolio from crypto market data based on their periodic performance metrics in a jupyter notebook using scikit-learn library from Python.
+Application of Unsupervised machine learning to cluster cryptocurrencies in a portfolio, from crypto market data based on their periodic performance metrics in a jupyter notebook using scikit-learn library from Python.
 
-## Approach followed:
+## Analysis and steps followed:
 
 ### * Clustering with the original data (before using optimization techniques)
 
